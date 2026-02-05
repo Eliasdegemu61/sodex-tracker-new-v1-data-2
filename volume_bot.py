@@ -17,10 +17,13 @@ async def main():
             raw_data = await response.json()
             days = raw_data.get("data", {}).get("data", [])
 
-            all_time_pairs = {}
+            # Dictionaries to track All-Time totals per pair
+            all_time_spot_pairs = {}
+            all_time_futures_pairs = {}
+            total_combined_volume = 0.0
             chart_data = []
             
-            # Process daily data
+            # Process every day in the dataset
             for day in days:
                 date_str = day["day_date"]
                 markets = day.get("markets", {})
@@ -30,43 +33,46 @@ async def main():
                 
                 for pair, vol_str in markets.items():
                     vol = float(vol_str)
+                    total_combined_volume += vol
                     
-                    # Track All-Time Totals per pair
-                    all_time_pairs[pair] = all_time_pairs.get(pair, 0) + vol
-                    
-                    # Split Spot vs Futures for the Chart
+                    # Sort into Spot vs Futures for All-Time tracking
                     if "/" in pair:
+                        all_time_spot_pairs[pair] = all_time_spot_pairs.get(pair, 0) + vol
                         day_spot_vol += vol
-                    else:
+                    elif "-" in pair:
+                        all_time_futures_pairs[pair] = all_time_futures_pairs.get(pair, 0) + vol
                         day_futures_vol += vol
                 
+                # Full day-by-day resolution for the graph
                 chart_data.append({
-                    "date": date_str,
-                    "spot": round(day_spot_vol, 2),
-                    "futures": round(day_futures_vol, 2),
-                    "total": round(day_spot_vol + day_futures_vol, 2)
+                    "day": date_str,
+                    "spot_vol": round(day_spot_vol, 2),
+                    "futures_vol": round(day_futures_vol, 2),
+                    "total_day_vol": round(day_spot_vol + day_futures_vol, 2)
                 })
 
-            # 1. GENERATE SUMMARY FILE
-            # Get All-Time Top 5
-            top_all_time = sorted(all_time_pairs.items(), key=lambda x: x[1], reverse=True)[:5]
+            # --- CALCULATE LEADERBOARDS ---
+            # All-Time Spot Top 5
+            top_5_all_time_spot = sorted(all_time_spot_pairs.items(), key=lambda x: x[1], reverse=True)[:5]
+            # All-Time Futures Top 5
+            top_5_all_time_futures = sorted(all_time_futures_pairs.items(), key=lambda x: x[1], reverse=True)[:5]
             
-            # Get Today's Data (Last item in array)
+            # Get Today's Top 5 (Latest day in array)
             latest_day = days[-1]
             latest_markets = latest_day.get("markets", {})
-            
-            # Separate Today's Spot and Futures
             today_spot = {k: float(v) for k, v in latest_markets.items() if "/" in k}
             today_futures = {k: float(v) for k, v in latest_markets.items() if "-" in k}
             
             top_today_spot = sorted(today_spot.items(), key=lambda x: x[1], reverse=True)[:5]
             top_today_futures = sorted(today_futures.items(), key=lambda x: x[1], reverse=True)[:5]
 
+            # --- GENERATE SUMMARY FILE ---
             summary = {
                 "updated_at": datetime.now().isoformat(),
                 "all_time_stats": {
-                    "total_combined_volume": round(sum(all_time_pairs.values()), 2),
-                    "top_5_pairs": [{"pair": k, "volume": round(v, 2)} for k, v in top_all_time]
+                    "total_combined_volume": round(total_combined_volume, 2),
+                    "top_5_spot": [{"pair": k, "volume": round(v, 2)} for k, v in top_5_all_time_spot],
+                    "top_5_futures": [{"pair": k, "volume": round(v, 2)} for k, v in top_5_all_time_futures]
                 },
                 "today_stats": {
                     "date": latest_day["day_date"],
@@ -75,14 +81,13 @@ async def main():
                 }
             }
 
-            # Save Files
             with open(SUMMARY_FILE, 'w') as f:
                 json.dump(summary, f, indent=2)
             
             with open(CHART_FILE, 'w') as f:
                 json.dump(chart_data, f, indent=2)
 
-            print(f"✅ Volume Summary and Chart updated using {len(days)} days of data.")
+            print(f"✅ Volume Sync Complete. Total Volume: {round(total_combined_volume, 2)}")
 
 if __name__ == "__main__":
     asyncio.run(main())
