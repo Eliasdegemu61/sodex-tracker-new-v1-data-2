@@ -1,8 +1,30 @@
 {
-  "updated_at": "2026-02-05T10:33:34.816166",
+  "updated_at": "2026-02-05T10:36:50.451276",
   "all_time_stats": {
     "total_combined_volume": 227169200.0,
-    "top_5_pairs": [
+    "top_5_spot": [
+      {
+        "pair": "BTC/USDC",
+        "volume": 3345660.37
+      },
+      {
+        "pair": "SOSO/USDC",
+        "volume": 2944145.61
+      },
+      {
+        "pair": "ETH/USDC",
+        "volume": 2935098.79
+      },
+      {
+        "pair": "MAG7ssi/USDC",
+        "volume": 2342149.72
+      },
+      {
+        "pair": "LINK/USDC",
+        "volume": 2253284.56
+      }
+    ],
+    "top_5_futures": [
       {
         "pair": "BTC-USD",
         "volume": 59159481.94
