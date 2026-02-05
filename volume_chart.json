@@ -1,5 +1,527 @@
 [
   {
+    "day": "2025-10-10",
+    "spot_vol": 9.42,
+    "futures_vol": 0.0,
+    "total_day_vol": 9.42
+  },
+  {
+    "day": "2025-10-11",
+    "spot_vol": 9.68,
+    "futures_vol": 0.0,
+    "total_day_vol": 9.68
+  },
+  {
+    "day": "2025-10-12",
+    "spot_vol": 0.0,
+    "futures_vol": 3844.69,
+    "total_day_vol": 3844.69
+  },
+  {
+    "day": "2025-10-13",
+    "spot_vol": 0.0,
+    "futures_vol": 1059.48,
+    "total_day_vol": 1059.48
+  },
+  {
+    "day": "2025-10-14",
+    "spot_vol": 58.95,
+    "futures_vol": 2219.15,
+    "total_day_vol": 2278.1
+  },
+  {
+    "day": "2025-10-15",
+    "spot_vol": 198.99,
+    "futures_vol": 10672.51,
+    "total_day_vol": 10871.5
+  },
+  {
+    "day": "2025-10-16",
+    "spot_vol": 255.09,
+    "futures_vol": 15459.35,
+    "total_day_vol": 15714.44
+  },
+  {
+    "day": "2025-10-17",
+    "spot_vol": 9783.49,
+    "futures_vol": 24164.85,
+    "total_day_vol": 33948.34
+  },
+  {
+    "day": "2025-10-18",
+    "spot_vol": 2617.26,
+    "futures_vol": 3529.87,
+    "total_day_vol": 6147.13
+  },
+  {
+    "day": "2025-10-19",
+    "spot_vol": 1702.84,
+    "futures_vol": 2207.41,
+    "total_day_vol": 3910.25
+  },
+  {
+    "day": "2025-10-20",
+    "spot_vol": 13015.53,
+    "futures_vol": 31855.59,
+    "total_day_vol": 44871.12
+  },
+  {
+    "day": "2025-10-21",
+    "spot_vol": 58109.67,
+    "futures_vol": 674580.28,
+    "total_day_vol": 732689.95
+  },
+  {
+    "day": "2025-10-22",
+    "spot_vol": 209877.16,
+    "futures_vol": 233803.62,
+    "total_day_vol": 443680.78
+  },
+  {
+    "day": "2025-10-23",
+    "spot_vol": 1680158.83,
+    "futures_vol": 29363731.57,
+    "total_day_vol": 31043890.4
+  },
+  {
+    "day": "2025-10-24",
+    "spot_vol": 1876934.75,
+    "futures_vol": 43167393.45,
+    "total_day_vol": 45044328.2
+  },
+  {
+    "day": "2025-10-25",
+    "spot_vol": 403702.47,
+    "futures_vol": 1222113.57,
+    "total_day_vol": 1625816.04
+  },
+  {
+    "day": "2025-10-26",
+    "spot_vol": 441359.66,
+    "futures_vol": 2405801.62,
+    "total_day_vol": 2847161.28
+  },
+  {
+    "day": "2025-10-27",
+    "spot_vol": 1291005.04,
+    "futures_vol": 3784414.04,
+    "total_day_vol": 5075419.08
+  },
+  {
+    "day": "2025-10-28",
+    "spot_vol": 2025126.48,
+    "futures_vol": 11913321.83,
+    "total_day_vol": 13938448.31
+  },
+  {
+    "day": "2025-10-29",
+    "spot_vol": 742140.51,
+    "futures_vol": 2424763.13,
+    "total_day_vol": 3166903.64
+  },
+  {
+    "day": "2025-10-30",
+    "spot_vol": 881902.67,
+    "futures_vol": 4623045.05,
+    "total_day_vol": 5504947.72
+  },
+  {
+    "day": "2025-10-31",
+    "spot_vol": 840890.51,
+    "futures_vol": 2463984.34,
+    "total_day_vol": 3304874.85
+  },
+  {
+    "day": "2025-11-01",
+    "spot_vol": 850186.27,
+    "futures_vol": 1677132.85,
+    "total_day_vol": 2527319.12
+  },
+  {
+    "day": "2025-11-02",
+    "spot_vol": 810823.28,
+    "futures_vol": 2484983.35,
+    "total_day_vol": 3295806.63
+  },
+  {
+    "day": "2025-11-03",
+    "spot_vol": 869332.61,
+    "futures_vol": 2284001.79,
+    "total_day_vol": 3153334.4
+  },
+  {
+    "day": "2025-11-04",
+    "spot_vol": 994606.97,
+    "futures_vol": 2127528.67,
+    "total_day_vol": 3122135.64
+  },
+  {
+    "day": "2025-11-05",
+    "spot_vol": 1142812.6,
+    "futures_vol": 1754284.14,
+    "total_day_vol": 2897096.74
+  },
+  {
+    "day": "2025-11-06",
+    "spot_vol": 900084.69,
+    "futures_vol": 1922615.43,
+    "total_day_vol": 2822700.12
+  },
+  {
+    "day": "2025-11-07",
+    "spot_vol": 855365.5,
+    "futures_vol": 1684089.51,
+    "total_day_vol": 2539455.01
+  },
+  {
+    "day": "2025-11-08",
+    "spot_vol": 803212.64,
+    "futures_vol": 1730536.48,
+    "total_day_vol": 2533749.12
+  },
+  {
+    "day": "2025-11-09",
+    "spot_vol": 810522.62,
+    "futures_vol": 1754601.26,
+    "total_day_vol": 2565123.88
+  },
+  {
+    "day": "2025-11-10",
+    "spot_vol": 820581.72,
+    "futures_vol": 1675044.24,
+    "total_day_vol": 2495625.96
+  },
+  {
+    "day": "2025-11-11",
+    "spot_vol": 847694.35,
+    "futures_vol": 1789526.87,
+    "total_day_vol": 2637221.22
+  },
+  {
+    "day": "2025-11-12",
+    "spot_vol": 813623.11,
+    "futures_vol": 1927355.54,
+    "total_day_vol": 2740978.65
+  },
+  {
+    "day": "2025-11-13",
+    "spot_vol": 829840.49,
+    "futures_vol": 1979727.66,
+    "total_day_vol": 2809568.15
+  },
+  {
+    "day": "2025-11-14",
+    "spot_vol": 819669.21,
+    "futures_vol": 2296773.8,
+    "total_day_vol": 3116443.01
+  },
+  {
+    "day": "2025-11-15",
+    "spot_vol": 789566.92,
+    "futures_vol": 1990312.62,
+    "total_day_vol": 2779879.54
+  },
+  {
+    "day": "2025-11-16",
+    "spot_vol": 807012.24,
+    "futures_vol": 1917672.68,
+    "total_day_vol": 2724684.92
+  },
+  {
+    "day": "2025-11-17",
+    "spot_vol": 816729.18,
+    "futures_vol": 2038580.29,
+    "total_day_vol": 2855309.47
+  },
+  {
+    "day": "2025-11-18",
+    "spot_vol": 798653.94,
+    "futures_vol": 1752779.77,
+    "total_day_vol": 2551433.71
+  },
+  {
+    "day": "2025-11-19",
+    "spot_vol": 812494.87,
+    "futures_vol": 1816972.91,
+    "total_day_vol": 2629467.78
+  },
+  {
+    "day": "2025-11-20",
+    "spot_vol": 854937.8,
+    "futures_vol": 2120762.6,
+    "total_day_vol": 2975700.4
+  },
+  {
+    "day": "2025-11-21",
+    "spot_vol": 934176.71,
+    "futures_vol": 2168277.54,
+    "total_day_vol": 3102454.25
+  },
+  {
+    "day": "2025-11-22",
+    "spot_vol": 860360.31,
+    "futures_vol": 1761019.29,
+    "total_day_vol": 2621379.6
+  },
+  {
+    "day": "2025-11-23",
+    "spot_vol": 819160.96,
+    "futures_vol": 1607049.5,
+    "total_day_vol": 2426210.46
+  },
+  {
+    "day": "2025-11-24",
+    "spot_vol": 888007.17,
+    "futures_vol": 1769459.85,
+    "total_day_vol": 2657467.02
+  },
+  {
+    "day": "2025-11-25",
+    "spot_vol": 927974.29,
+    "futures_vol": 1842419.05,
+    "total_day_vol": 2770393.34
+  },
+  {
+    "day": "2025-11-26",
+    "spot_vol": 933844.98,
+    "futures_vol": 2818910.57,
+    "total_day_vol": 3752755.55
+  },
+  {
+    "day": "2025-11-27",
+    "spot_vol": 935226.04,
+    "futures_vol": 1807524.77,
+    "total_day_vol": 2742750.81
+  },
+  {
+    "day": "2025-11-28",
+    "spot_vol": 901209.48,
+    "futures_vol": 3676049.27,
+    "total_day_vol": 4577258.75
+  },
+  {
+    "day": "2025-11-29",
+    "spot_vol": 820257.75,
+    "futures_vol": 2348669.39,
+    "total_day_vol": 3168927.14
+  },
+  {
+    "day": "2025-11-30",
+    "spot_vol": 816986.0,
+    "futures_vol": 2053921.84,
+    "total_day_vol": 2870907.84
+  },
+  {
+    "day": "2025-12-01",
+    "spot_vol": 952621.05,
+    "futures_vol": 2469398.35,
+    "total_day_vol": 3422019.4
+  },
+  {
+    "day": "2025-12-02",
+    "spot_vol": 867527.6,
+    "futures_vol": 2523546.89,
+    "total_day_vol": 3391074.49
+  },
+  {
+    "day": "2025-12-03",
+    "spot_vol": 827092.6,
+    "futures_vol": 2125636.06,
+    "total_day_vol": 2952728.66
+  },
+  {
+    "day": "2025-12-04",
+    "spot_vol": 839730.65,
+    "futures_vol": 2088417.42,
+    "total_day_vol": 2928148.07
+  },
+  {
+    "day": "2025-12-05",
+    "spot_vol": 861586.84,
+    "futures_vol": 2187024.45,
+    "total_day_vol": 3048611.29
+  },
+  {
+    "day": "2025-12-06",
+    "spot_vol": 1333337.17,
+    "futures_vol": 1854349.62,
+    "total_day_vol": 3187686.79
+  },
+  {
+    "day": "2025-12-07",
+    "spot_vol": 1929835.11,
+    "futures_vol": 2554993.72,
+    "total_day_vol": 4484828.83
+  },
+  {
+    "day": "2025-12-08",
+    "spot_vol": 1934080.92,
+    "futures_vol": 3359822.21,
+    "total_day_vol": 5293903.13
+  },
+  {
+    "day": "2025-12-09",
+    "spot_vol": 1708820.37,
+    "futures_vol": 3184420.58,
+    "total_day_vol": 4893240.95
+  },
+  {
+    "day": "2025-12-10",
+    "spot_vol": 1189961.49,
+    "futures_vol": 2484796.99,
+    "total_day_vol": 3674758.48
+  },
+  {
+    "day": "2025-12-11",
+    "spot_vol": 1114668.6,
+    "futures_vol": 2137533.15,
+    "total_day_vol": 3252201.75
+  },
+  {
+    "day": "2025-12-12",
+    "spot_vol": 1124821.13,
+    "futures_vol": 2026614.01,
+    "total_day_vol": 3151435.14
+  },
+  {
+    "day": "2025-12-13",
+    "spot_vol": 1161116.92,
+    "futures_vol": 2096524.69,
+    "total_day_vol": 3257641.61
+  },
+  {
+    "day": "2025-12-14",
+    "spot_vol": 1108942.58,
+    "futures_vol": 2342316.68,
+    "total_day_vol": 3451259.26
+  },
+  {
+    "day": "2025-12-15",
+    "spot_vol": 1264559.07,
+    "futures_vol": 2608938.7,
+    "total_day_vol": 3873497.77
+  },
+  {
+    "day": "2025-12-16",
+    "spot_vol": 1284680.87,
+    "futures_vol": 2629822.76,
+    "total_day_vol": 3914503.63
+  },
+  {
+    "day": "2025-12-17",
+    "spot_vol": 1265749.61,
+    "futures_vol": 3195350.5,
+    "total_day_vol": 4461100.11
+  },
+  {
+    "day": "2025-12-18",
+    "spot_vol": 1352188.88,
+    "futures_vol": 3598330.18,
+    "total_day_vol": 4950519.06
+  },
+  {
+    "day": "2025-12-19",
+    "spot_vol": 1298962.91,
+    "futures_vol": 4161129.14,
+    "total_day_vol": 5460092.05
+  },
+  {
+    "day": "2025-12-20",
+    "spot_vol": 1270231.01,
+    "futures_vol": 3590401.22,
+    "total_day_vol": 4860632.23
+  },
+  {
+    "day": "2025-12-21",
+    "spot_vol": 1282329.64,
+    "futures_vol": 3990583.9,
+    "total_day_vol": 5272913.54
+  },
+  {
+    "day": "2025-12-22",
+    "spot_vol": 1298131.82,
+    "futures_vol": 4277720.47,
+    "total_day_vol": 5575852.29
+  },
+  {
+    "day": "2025-12-23",
+    "spot_vol": 1282151.06,
+    "futures_vol": 4313198.74,
+    "total_day_vol": 5595349.8
+  },
+  {
+    "day": "2025-12-24",
+    "spot_vol": 1290151.99,
+    "futures_vol": 4401678.69,
+    "total_day_vol": 5691830.68
+  },
+  {
+    "day": "2025-12-25",
+    "spot_vol": 1263704.43,
+    "futures_vol": 4316415.64,
+    "total_day_vol": 5580120.07
+  },
+  {
+    "day": "2025-12-26",
+    "spot_vol": 1369678.6,
+    "futures_vol": 4124834.82,
+    "total_day_vol": 5494513.42
+  },
+  {
+    "day": "2025-12-27",
+    "spot_vol": 1623644.13,
+    "futures_vol": 3762696.97,
+    "total_day_vol": 5386341.1
+  },
+  {
+    "day": "2025-12-28",
+    "spot_vol": 1604151.43,
+    "futures_vol": 4138192.59,
+    "total_day_vol": 5742344.02
+  },
+  {
+    "day": "2025-12-29",
+    "spot_vol": 1561804.65,
+    "futures_vol": 4289004.19,
+    "total_day_vol": 5850808.84
+  },
+  {
+    "day": "2025-12-30",
+    "spot_vol": 1768778.29,
+    "futures_vol": 4815090.68,
+    "total_day_vol": 6583868.97
+  },
+  {
+    "day": "2025-12-31",
+    "spot_vol": 1615540.38,
+    "futures_vol": 4449577.36,
+    "total_day_vol": 6065117.74
+  },
+  {
+    "day": "2026-01-01",
+    "spot_vol": 1630795.63,
+    "futures_vol": 5374170.71,
+    "total_day_vol": 7004966.34
+  },
+  {
+    "day": "2026-01-02",
+    "spot_vol": 1652940.81,
+    "futures_vol": 6028105.72,
+    "total_day_vol": 7681046.53
+  },
+  {
+    "day": "2026-01-03",
+    "spot_vol": 1969326.97,
+    "futures_vol": 4440941.43,
+    "total_day_vol": 6410268.4
+  },
+  {
+    "day": "2026-01-04",
+    "spot_vol": 1636696.39,
+    "futures_vol": 5225666.85,
+    "total_day_vol": 6862363.24
+  },
+  {
     "day": "2026-01-05",
     "spot_vol": 1664746.0,
     "futures_vol": 5499370.47,
