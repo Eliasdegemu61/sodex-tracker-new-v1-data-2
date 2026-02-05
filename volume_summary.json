@@ -1,7 +1,9 @@
 {
-  "updated_at": "2026-02-05T10:52:10.618719",
+  "updated_at": "2026-02-05T10:54:45.069006",
   "all_time_stats": {
     "total_combined_volume": 595191150.31,
+    "total_spot_volume": 121986032.43,
+    "total_futures_volume": 473205117.88,
     "top_5_spot": [
       {
         "pair": "BTC/USDC",
