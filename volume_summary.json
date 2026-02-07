@@ -1,51 +1,51 @@
 {
-  "updated_at": "2026-02-07T11:12:56.567706",
+  "updated_at": "2026-02-07T12:22:06.003352",
   "all_time_stats": {
-    "total_combined_volume": 659329603.26,
-    "total_spot_volume": 125614734.71,
-    "total_futures_volume": 533714868.55,
+    "total_combined_volume": 660714263.32,
+    "total_spot_volume": 125770414.28,
+    "total_futures_volume": 534943849.04,
     "top_5_spot": [
       {
         "pair": "BTC/USDC",
-        "volume": 12956965.55
+        "volume": 12980162.26
       },
       {
         "pair": "ETH/USDC",
-        "volume": 11965277.96
+        "volume": 12013570.34
       },
       {
         "pair": "SOL/USDC",
-        "volume": 11574797.97
+        "volume": 11578556.19
       },
       {
         "pair": "MAG7ssi/USDC",
-        "volume": 10580500.91
+        "volume": 10585538.38
       },
       {
         "pair": "LINK/USDC",
-        "volume": 10464613.52
+        "volume": 10466069.79
       }
     ],
     "top_5_futures": [
       {
         "pair": "BTC-USD",
-        "volume": 173694838.64
+        "volume": 174442351.93
       },
       {
         "pair": "SOL-USD",
-        "volume": 49107083.89
+        "volume": 49130779.46
       },
       {
         "pair": "ETH-USD",
-        "volume": 48674902.55
+        "volume": 48806693.21
       },
       {
         "pair": "XAUT-USD",
-        "volume": 22968797.58
+        "volume": 23055345.61
       },
       {
         "pair": "DOGE-USD",
-        "volume": 15820828.72
+        "volume": 15825087.74
       }
     ]
   },
@@ -54,45 +54,45 @@
     "top_5_spot": [
       {
         "pair": "BTC/USDC",
-        "volume": 291457.19
+        "volume": 314653.9
       },
       {
         "pair": "ETH/USDC",
-        "volume": 153624.9
+        "volume": 201917.28
       },
       {
         "pair": "DOGE/USDC",
-        "volume": 114967.64
+        "volume": 127786.1
       },
       {
         "pair": "SOSO/USDC",
-        "volume": 92108.62
+        "volume": 109545.49
       },
       {
-        "pair": "MAG7ssi/USDC",
-        "volume": 50562.64
+        "pair": "HYPE/USDC",
+        "volume": 57578.81
       }
     ],
     "top_5_futures": [
       {
         "pair": "BTC-USD",
-        "volume": 5891661.26
+        "volume": 6639174.55
       },
       {
         "pair": "XAUT-USD",
-        "volume": 1898339.44
+        "volume": 1984887.47
       },
       {
         "pair": "ETH-USD",
-        "volume": 832253.16
+        "volume": 964043.82
       },
       {
         "pair": "SOL-USD",
-        "volume": 513574.72
+        "volume": 537270.29
       },
       {
         "pair": "HYPE-USD",
-        "volume": 117755.12
+        "volume": 153411.69
       }
     ]
   }
