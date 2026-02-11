@@ -739,8 +739,14 @@
   },
   {
     "day": "2026-02-10",
-    "spot_vol": 1374258.6,
-    "futures_vol": 19160362.07,
-    "total_day_vol": 20534620.67
+    "spot_vol": 1432621.47,
+    "futures_vol": 20292753.53,
+    "total_day_vol": 21725375.0
+  },
+  {
+    "day": "2026-02-11",
+    "spot_vol": 49344.43,
+    "futures_vol": 661294.12,
+    "total_day_vol": 710638.55
   }
 ]
